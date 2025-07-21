@@ -17,7 +17,7 @@ float code(float x) {
 */
 
 float code(float x) {
-	return pow((sqrt(x) + 1.0), -1.0);
+	return powf((sqrtf(x) + 1.0), -1.0);
 }
 
 int main(int argc, char **argv){
