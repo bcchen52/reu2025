@@ -11,10 +11,10 @@ if [[ $# -lt 1 ]]; then
   exit 1
 fi
 
-CLANG=/uufs/chpc.utah.edu/common/home/u6068934/Tools/llvm-clone/llvm/build-release/bin/clang
-CIRE=/uufs/chpc.utah.edu/common/home/u6068934/Tools/CIRE/build-debug/bin/CIRE_LLVM
+CLANG=/uufs/chpc.utah.edu/common/home/u6068923/Tools/llvm-clone/llvm/build-release/bin/clang
+CIRE=/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM
 LEVELS=(O1 O2 O3 Os)
-INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068934/Tools/CIRE/inputs/test_input.txt
+INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt
 # Create consolidated output file with timestamp
 CONSOLIDATED_FILE="$HOME/cire_analysis_$(date +%Y%m%d_%H%M%S).txt"
 

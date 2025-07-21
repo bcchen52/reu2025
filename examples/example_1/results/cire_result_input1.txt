@@ -1,0 +1,1063 @@
+================================================================================
+CIRE Floating-Point Error Analysis Report
+Generated: Mon Jul 21 09:59:14 MDT 2025
+Optimization Levels: O1 O2 O3 Os
+================================================================================
+
+
+################################################################################
+SOURCE FILE: ex1_original.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_original.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:14 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00682556 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0860124 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_original.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:14 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00228144 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0313352 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_original.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:15 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00297578 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0344836 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_original.c | Optimization: -Os | Generated: Mon Jul 21 09:59:15 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00208013 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0309711 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_original_lp.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_original_lp.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:15 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_lp_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00218537 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0338852 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_original_lp.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:16 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_lp_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00202761 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0335983 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_original_lp.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:16 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_lp_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00265965 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.034644 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_original_lp.c | Optimization: -Os | Generated: Mon Jul 21 09:59:17 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_original_lp_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00219988 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0339124 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt1.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt1.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:17 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00196032 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.444009 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt1.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:18 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00216368 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.444855 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt1.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:19 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00207434 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.444968 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt1.c | Optimization: -Os | Generated: Mon Jul 21 09:59:19 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00246494 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.444714 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt1_lp.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt1_lp.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:20 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_lp_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00245775 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.45302 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt1_lp.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:21 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_lp_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00212008 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.460837 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt1_lp.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:22 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_lp_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00243874 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.453964 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt1_lp.c | Optimization: -Os | Generated: Mon Jul 21 09:59:23 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt1_lp_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: div: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00239032 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.452567 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt2.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt2.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:23 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00267351 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.403379 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt2.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:24 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00254499 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.436032 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt2.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:25 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00212254 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.406435 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt2.c | Optimization: -Os | Generated: Mon Jul 21 09:59:26 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00277835 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.409541 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt2_lp.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt2_lp.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:26 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_lp_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00284959 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.404956 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt2_lp.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:27 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_lp_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00238628 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.401643 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt2_lp.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:28 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_lp_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00246329 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.402983 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt2_lp.c | Optimization: -Os | Generated: Mon Jul 21 09:59:29 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt2_lp_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: reciprocal: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00200965 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.399444 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt3.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt3.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:29 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: : 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00242578 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0281953 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt3.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:30 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: : 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00231977 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0276927 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt3.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:30 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: : 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00205965 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0269625 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt3.c | Optimization: -Os | Generated: Mon Jul 21 09:59:30 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: : 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.0020479 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0271761 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt3_lp.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt3_lp.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:31 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_lp_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: conv2: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00390601 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.040823 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt3_lp.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:31 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_lp_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: conv2: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00236482 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0390431 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt3_lp.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:32 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_lp_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: conv2: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00258462 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0313366 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt3_lp.c | Optimization: -Os | Generated: Mon Jul 21 09:59:32 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt3_lp_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: conv2: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00209507 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0297772 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt4.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt4.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:32 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00212946 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0246777 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt4.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:33 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00212627 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0251763 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt4.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:33 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00223935 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0245693 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt4.c | Optimization: -Os | Generated: Mon Jul 21 09:59:33 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00261985 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0251774 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+################################################################################
+SOURCE FILE: ex1_alt4_lp.c
+################################################################################
+
+=== OPTIMIZATION LEVEL: O1 ===
+File: ex1_alt4_lp.c | Optimization: -O1 | Generated: Mon Jul 21 09:59:34 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_lp_O1.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00219213 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0273152 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O2 ===
+File: ex1_alt4_lp.c | Optimization: -O2 | Generated: Mon Jul 21 09:59:34 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_lp_O2.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00246403 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0281333 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: O3 ===
+File: ex1_alt4_lp.c | Optimization: -O3 | Generated: Mon Jul 21 09:59:34 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_lp_O3.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00213645 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0271363 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+=== OPTIMIZATION LEVEL: Os ===
+File: ex1_alt4_lp.c | Optimization: -Os | Generated: Mon Jul 21 09:59:35 MDT 2025
+
+Function analyzed: code
+----------------------------------------
+'/uufs/chpc.utah.edu/common/home/u6068923/Tools/CIRE/build-debug/bin/CIRE_LLVM' '/uufs/chpc.utah.edu/common/home/u6068923/ex1_alt4_lp_Os.bc' '--function' 'code' '--input' '/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/example_1/inputs/input1.txt' '--debug-level' '1' 
+Parsing LLVM IR...
+Parsing...
+Only LLVM programs can be parsed with INPUTS and OUTPUTS sections
+Parsing successful!
+Parsing complete
+Final computation...
+Optimizer returned UNBOUNDED. Objective tends to inf or -inf.
+Final Computation complete!
+
+Output Variable: sub: 	Output: [1, 1.001001001001001],  	Error: <-1.99584030953472e+292, -1.995840309534719e+292>,  
+	Num Optimizer Calls: 2
+Parsing Time taken: 0.00217138 seconds
+Error Analysis Time taken: 0 seconds
+Total Time taken: 0.0267479 seconds
+Writing results to results.json ...
+Results written to results.json!
+
+----------------------------------------
+
+
+================================================================================
+ANALYSIS COMPLETE
+Total files processed: 10
+Optimization levels tested: O1 O2 O3 Os
+Completed: Mon Jul 21 09:59:35 MDT 2025
+================================================================================
