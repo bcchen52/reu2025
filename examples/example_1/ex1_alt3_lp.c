@@ -1,5 +1,18 @@
 #include <math.h>
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 float code(float x) {
 	return fma(0.5f, x, (1.0f - sqrtf(x)));
+}
+
+int main(int argc, char **argv){
+	float x = atof(argv[1]);
+
+	float result = code(x);
+
+	printf("x = %.17e, sqrt(x) = %.17e\n", x, result);
+
+	return 0;
 }
