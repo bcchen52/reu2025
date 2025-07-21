@@ -1,0 +1,14 @@
+Verificarlo Analysis Information
+========================================
+
+Date: 2025-07-21 11:33:18
+Input file: ./results/ex1_original-DOUBLE-vp15-mca.tab
+Precision: 15 bits
+Number of x values: 201
+X range: [-1.000000, 1.000000]
+
+Summary Statistics:
+Mean significant digits: 4.45
+Min significant digits: 4.19 at x=1.000000
+Max significant digits: 4.52 at x=-1.000000
+Most unstable point: x=0.520000 (σ=3.14e-05)

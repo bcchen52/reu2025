@@ -1,0 +1,13 @@
+Verificarlo VPREC Analysis Information
+========================================
+
+Date: 2025-07-21 12:19:56
+Input file: ./vprec_results/vprecex1_original-DOUBLE-binary32.tab
+VPREC preset: binary32
+Number of test points: 201
+X range: [-1.000000, 1.000000]
+
+Result Statistics:
+Min result: -1.000000e+00
+Max result: 1.000000e+00
+Mean result: 2.714344e-02

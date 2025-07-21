@@ -1,0 +1,14 @@
+Verificarlo Analysis Information
+========================================
+
+Date: 2025-07-21 13:17:26
+Input file: ./results/ex1_alt2-DOUBLE-vp53-mca.tab
+Precision: 53 bits
+Number of x values: 201
+X range: [-1.000000, 1.000000]
+
+Summary Statistics:
+Mean significant digits: 15.78
+Min significant digits: 15.39 at x=-0.540000
+Max significant digits: 15.95 at x=-1.000000
+Most unstable point: x=-0.990000 (σ=3.33e-16)
