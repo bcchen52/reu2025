@@ -1,21 +1,21 @@
 {
-    "softmax_og_O1": {
-        "Error Analysis Time": 0.11111691500000001,
-        "Parsing Time": 0.004650896000000001,
+    "softmax_og1_O1": {
+        "Error Analysis Time": 11.106521072000001,
+        "Parsing Time": 0.003096348,
         "Results": {
             "Height": 4,
-            "NumOperators": 6,
+            "NumOperators": 7,
             "Number of Optimizer Calls": 2,
-            "Optimization Time": 0.09871300000000002,
+            "Optimization Time": 10.855259000000007,
             "div": {
                 "Error": [
-                    1.3877787800649407e-17,
-                    1.3891679480129532e-17
+                    2.7755575558421275e-17,
+                    2.778335891733861e-17
                 ],
                 "Optima": [
                     [
-                        0.6931926233168898,
-                        0.6931926233168898
+                        -20.0,
+                        -20.0
                     ],
                     [
                         0.0,
@@ -27,30 +27,30 @@
                     ]
                 ],
                 "Output": [
-                    0.9999092083843403,
-                    1.0009101185028428
+                    0.9999999979388664,
+                    1.001000998937804
                 ]
             }
         },
-        "Total Time": 0.115819668
+        "Total Time": 11.109712256000002
     },
-    "softmax_og_O2": {
-        "Error Analysis Time": 0.11098490000000001,
-        "Parsing Time": 0.002620658,
+    "softmax_og1_O2": {
+        "Error Analysis Time": 11.040923509,
+        "Parsing Time": 0.0025235920000000003,
         "Results": {
             "Height": 4,
-            "NumOperators": 6,
+            "NumOperators": 7,
             "Number of Optimizer Calls": 2,
-            "Optimization Time": 0.09877700000000003,
+            "Optimization Time": 10.823733,
             "div": {
                 "Error": [
-                    1.3877787800649407e-17,
-                    1.3891679480129532e-17
+                    2.7755575558421275e-17,
+                    2.778335891733861e-17
                 ],
                 "Optima": [
                     [
-                        0.6931926233168898,
-                        0.6931926233168898
+                        -20.0,
+                        -20.0
                     ],
                     [
                         0.0,
@@ -62,30 +62,30 @@
                     ]
                 ],
                 "Output": [
-                    0.9999092083843403,
-                    1.0009101185028428
+                    0.9999999979388664,
+                    1.001000998937804
                 ]
             }
         },
-        "Total Time": 0.11366026500000001
+        "Total Time": 11.043518301
     },
-    "softmax_og_O3": {
-        "Error Analysis Time": 0.112093123,
-        "Parsing Time": 0.002482759,
+    "softmax_og1_O3": {
+        "Error Analysis Time": 11.200436846,
+        "Parsing Time": 0.002658464,
         "Results": {
             "Height": 4,
-            "NumOperators": 6,
+            "NumOperators": 7,
             "Number of Optimizer Calls": 2,
-            "Optimization Time": 0.09933900000000002,
+            "Optimization Time": 10.947346000000007,
             "div": {
                 "Error": [
-                    1.3877787800649407e-17,
-                    1.3891679480129532e-17
+                    2.7755575558421275e-17,
+                    2.778335891733861e-17
                 ],
                 "Optima": [
                     [
-                        0.6931926233168898,
-                        0.6931926233168898
+                        -20.0,
+                        -20.0
                     ],
                     [
                         0.0,
@@ -97,30 +97,30 @@
                     ]
                 ],
                 "Output": [
-                    0.9999092083843403,
-                    1.0009101185028428
+                    0.9999999979388664,
+                    1.001000998937804
                 ]
             }
         },
-        "Total Time": 0.11463994100000001
+        "Total Time": 11.203170570000001
     },
-    "softmax_og_Os": {
-        "Error Analysis Time": 0.114264429,
-        "Parsing Time": 0.0021686080000000003,
+    "softmax_og1_Os": {
+        "Error Analysis Time": 11.043357448,
+        "Parsing Time": 0.0022556660000000004,
         "Results": {
             "Height": 4,
-            "NumOperators": 6,
+            "NumOperators": 7,
             "Number of Optimizer Calls": 2,
-            "Optimization Time": 0.10142500000000002,
+            "Optimization Time": 10.822148000000004,
             "div": {
                 "Error": [
-                    1.3877787800649406e-17,
-                    1.3891679480129532e-17
+                    2.7755575558421275e-17,
+                    2.778335891733861e-17
                 ],
                 "Optima": [
                     [
-                        0.6931926233168898,
-                        0.6931926233168898
+                        -20.0,
+                        -20.0
                     ],
                     [
                         0.0,
@@ -132,11 +132,11 @@
                     ]
                 ],
                 "Output": [
-                    0.9999092083843403,
-                    1.0009101185028428
+                    0.9999999979388664,
+                    1.001000998937804
                 ]
             }
         },
-        "Total Time": 0.11648508900000001
+        "Total Time": 11.04568976
     }
 }

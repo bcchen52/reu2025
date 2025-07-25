@@ -14,7 +14,7 @@ fi
 CLANG=/uufs/chpc.utah.edu/common/home/u1260704/Tools/llvm-clone/llvm/build-release/bin/clang
 CIRE=/uufs/chpc.utah.edu/common/home/u1260704/Tools/CIRE/build-debug/bin/CIRE_LLVM
 LEVELS=(O1 O2 O3 Os)
-INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/softmax/inputs/softmax4.cire
+INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/softmax/inputs/softmax7.cire
 # Create consolidated output file with timestamp
 CONSOLIDATED_FILE="$HOME/cire_analysis_$(date +%Y%m%d_%H%M%S).txt"
 

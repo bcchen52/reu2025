@@ -1,0 +1,142 @@
+{
+    "softmax_og1_O1": {
+        "Error Analysis Time": 0.006652288,
+        "Parsing Time": 0.0023819540000000004,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 7,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 0.002597999999999998,
+            "div": {
+                "Error": [
+                    2.7569500866647152e-17,
+                    2.7597097964611762e-17
+                ],
+                "Optima": [
+                    [
+                        -4.999999999999999,
+                        -4.999999999999999
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    0.4983211691867485,
+                    0.4988199891759244
+                ]
+            }
+        },
+        "Total Time": 0.009079184
+    },
+    "softmax_og1_O2": {
+        "Error Analysis Time": 0.006574974000000001,
+        "Parsing Time": 0.0025015980000000003,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 7,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 0.002562,
+            "div": {
+                "Error": [
+                    2.7569500866647152e-17,
+                    2.7597097964611762e-17
+                ],
+                "Optima": [
+                    [
+                        -4.999999999999999,
+                        -4.999999999999999
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    0.4983211691867485,
+                    0.4988199891759244
+                ]
+            }
+        },
+        "Total Time": 0.009117352
+    },
+    "softmax_og1_O3": {
+        "Error Analysis Time": 0.006745875,
+        "Parsing Time": 0.004647046,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 7,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 0.002602,
+            "div": {
+                "Error": [
+                    2.7569500866647152e-17,
+                    2.7597097964611762e-17
+                ],
+                "Optima": [
+                    [
+                        -4.999999999999999,
+                        -4.999999999999999
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    0.4983211691867485,
+                    0.4988199891759244
+                ]
+            }
+        },
+        "Total Time": 0.011436935
+    },
+    "softmax_og1_Os": {
+        "Error Analysis Time": 0.006984935,
+        "Parsing Time": 0.002574957,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 7,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 0.0026040000000000004,
+            "div": {
+                "Error": [
+                    2.7569500866647152e-17,
+                    2.7597097964611762e-17
+                ],
+                "Optima": [
+                    [
+                        -4.999999999999999,
+                        -4.999999999999999
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    0.49832116918674846,
+                    0.49881998917592435
+                ]
+            }
+        },
+        "Total Time": 0.009608965
+    }
+}
