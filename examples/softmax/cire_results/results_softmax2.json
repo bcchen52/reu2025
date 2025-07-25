@@ -1,0 +1,142 @@
+{
+    "softmax_og_O1": {
+        "Error Analysis Time": 0.003373974,
+        "Parsing Time": 0.0024421490000000002,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 6,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 2.999999999997796e-06,
+            "div": {
+                "Error": [
+                    3.4512664603419216e-27,
+                    1.1105681512711905e-23
+                ],
+                "Optima": [
+                    [
+                        -800.0,
+                        -800.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    -0.0,
+                    9.999999999999998e-08
+                ]
+            }
+        },
+        "Total Time": 0.0058520180000000005
+    },
+    "softmax_og_O2": {
+        "Error Analysis Time": 0.003526289,
+        "Parsing Time": 0.0021668570000000003,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 6,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 2.0000000000002655e-06,
+            "div": {
+                "Error": [
+                    3.4512664603419216e-27,
+                    1.1105681512711905e-23
+                ],
+                "Optima": [
+                    [
+                        -800.0,
+                        -800.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    -0.0,
+                    9.999999999999998e-08
+                ]
+            }
+        },
+        "Total Time": 0.005739598
+    },
+    "softmax_og_O3": {
+        "Error Analysis Time": 0.0037110940000000003,
+        "Parsing Time": 0.002420624,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 6,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 2.0000000000002655e-06,
+            "div": {
+                "Error": [
+                    3.4512664603419216e-27,
+                    1.1105681512711905e-23
+                ],
+                "Optima": [
+                    [
+                        -800.0,
+                        -800.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    -0.0,
+                    9.999999999999998e-08
+                ]
+            }
+        },
+        "Total Time": 0.0061908630000000004
+    },
+    "softmax_og_Os": {
+        "Error Analysis Time": 0.003382958,
+        "Parsing Time": 0.002129155,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 6,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 2.0000000000002655e-06,
+            "div": {
+                "Error": [
+                    3.4512664603419216e-27,
+                    1.1105681512711904e-23
+                ],
+                "Optima": [
+                    [
+                        -800.0,
+                        -800.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "Output": [
+                    -0.0,
+                    9.999999999999998e-08
+                ]
+            }
+        },
+        "Total Time": 0.005556920000000001
+    }
+}
