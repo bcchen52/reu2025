@@ -1,0 +1,4 @@
+INPUTS {
+  x fl64 : (-10, 10);
+}
+OUTPUTS { v0 fl64; }}

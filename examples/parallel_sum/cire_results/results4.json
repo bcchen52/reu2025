@@ -1,0 +1,110 @@
+{
+    "parallel_4_O1": {
+        "Error Analysis Time": 0.002216958,
+        "Parsing Time": 0.0028087940000000003,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 4,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 2.999999999999531e-06,
+            "add14": {
+                "Error": [
+                    7.105427357601002e-14,
+                    7.112539897498499e-14
+                ],
+                "Optima": [
+                    [
+                        10.0,
+                        10.0
+                    ]
+                ],
+                "Output": [
+                    160.0,
+                    160.16016016016013
+                ]
+            }
+        },
+        "Total Time": 0.0050797590000000005
+    },
+    "parallel_4_O2": {
+        "Error Analysis Time": 0.002206724,
+        "Parsing Time": 0.002156509,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 4,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 3.000000000002133e-06,
+            "add14": {
+                "Error": [
+                    7.105427357601002e-14,
+                    7.112539897498499e-14
+                ],
+                "Optima": [
+                    [
+                        10.0,
+                        10.0
+                    ]
+                ],
+                "Output": [
+                    160.0,
+                    160.16016016016013
+                ]
+            }
+        },
+        "Total Time": 0.004421342000000001
+    },
+    "parallel_4_O3": {
+        "Error Analysis Time": 0.0022307670000000003,
+        "Parsing Time": 0.002308721,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 4,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 3.0000000000012655e-06,
+            "add14": {
+                "Error": [
+                    7.105427357601002e-14,
+                    7.112539897498499e-14
+                ],
+                "Optima": [
+                    [
+                        10.0,
+                        10.0
+                    ]
+                ],
+                "Output": [
+                    160.0,
+                    160.16016016016013
+                ]
+            }
+        },
+        "Total Time": 0.004596220000000001
+    },
+    "parallel_4_Os": {
+        "Error Analysis Time": 0.002533637,
+        "Parsing Time": 0.0023190700000000003,
+        "Results": {
+            "Height": 4,
+            "NumOperators": 4,
+            "Number of Optimizer Calls": 2,
+            "Optimization Time": 3.0000000000012655e-06,
+            "add14": {
+                "Error": [
+                    7.105427357601002e-14,
+                    7.112539897498499e-14
+                ],
+                "Optima": [
+                    [
+                        10.0,
+                        10.0
+                    ]
+                ],
+                "Output": [
+                    160.0,
+                    160.16016016016013
+                ]
+            }
+        },
+        "Total Time": 0.004911905
+    }
+}

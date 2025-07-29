@@ -15,7 +15,7 @@ CLANG=/uufs/chpc.utah.edu/common/home/u1260704/Tools/llvm-clone/llvm/build-relea
 CIRE=/uufs/chpc.utah.edu/common/home/u1260704/Tools/CIRE/build-debug/bin/CIRE_LLVM
 LEVELS=(O1 O2 O3 Os)
 FASTMATH_FLAGS=("")
-INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/softmax/inputs/softmax8.cire
+INPUT_BIN=/uufs/chpc.utah.edu/common/home/u6068923/reu2025/examples/parallel_sum/inputs/parallel_sum1.cire
 # Create consolidated output file with timestamp
 CONSOLIDATED_FILE="$HOME/cire_analysis_$(date +%Y%m%d_%H%M%S).txt"
 
