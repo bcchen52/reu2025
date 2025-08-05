@@ -17,13 +17,17 @@ double parallel_sum4(double x) {
     v0  += v8;
     return v0;
 }
+int main() {
+    double x;
 
-int main(int argc, char **argv) {
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s <value>\n", argv[0]);
-        return 1;
+    // Read one double value from standard input
+    if (scanf("%lf", &x) == 1) {
+        // If successful, call the function and print the result
+        printf("%.17e\n", parallel_sum4(x));
+        return 0; // Success
+    } else {
+        // If scanf fails, print an error and exit
+        fprintf(stderr, "Error: Failed to read a double value from input.\n");
+        return 1; // Failure
     }
-    double x = atof(argv[1]);
-    printf("%.17e\n", parallel_sum4(x));
-    return 0;
 }
