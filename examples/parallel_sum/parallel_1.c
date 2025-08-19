@@ -14,6 +14,6 @@ int main(int argc, char **argv) {
         return 1;
     }
     double x = atof(argv[1]);
-    printf("%f\n", parallel_sum1(x));
+    printf("%.17e\n", parallel_sum1(x));
     return 0;
 }
